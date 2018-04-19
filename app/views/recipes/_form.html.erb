@@ -2,6 +2,7 @@
   Title: <%= f.text_field :title %><br>
 
   <%=f.fields_for :ingredients do |ing| %>
+    Ingredient
     <%= ing.label :name %>
     <%= ing.text_field :name %><br>
 
